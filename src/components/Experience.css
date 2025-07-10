@@ -1,0 +1,62 @@
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--primary-color);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.timeline-content {
+    padding: 10px 15px;
+    background: white;
+}
+
+.company-period {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 10px;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.responsibilities {
+    padding-left: 20px;
+}
+
+.responsibilities li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .company-period {
+        flex-direction: column;
+    }
+
+    .period {
+        margin-top: 3px;
+    }
+}
