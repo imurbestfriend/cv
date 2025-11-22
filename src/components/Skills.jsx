@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     const frontendSkills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'TypeScript', 'MUI', 'SASS', 'Tailwind'];
-    const tools = ['Git', 'Docker', 'Webpack', 'Vite', 'PostgreSQL', 'MongoDB', 'Node.js', 'Express js'];
+    const tools = ['Git', 'Docker', 'Webpack', 'Vite', 'Fast API','PostgreSQL', 'MongoDB', 'Node.js', 'Express js'];
     const MLSkills = ['Python', 'Computer Vision', 'NLP', 'AI-agent', 'LangGraph, LangChain', 'Scikit-Learn', 'PyTorch', 'Jupyter'];
 
     return (
