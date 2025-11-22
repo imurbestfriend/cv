@@ -16,7 +16,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-item">
                     <i className="fas fa-map-marker-alt"></i>
-                    <span>Москва, Россия</span>
+                    <span><a href='https://github.com/imurbestfriend'>GIT</a></span>
                 </div>
                 <div className="contact-item">
                     <i className="fab fa-linkedin"></i>

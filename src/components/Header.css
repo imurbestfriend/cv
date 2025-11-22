@@ -31,7 +31,6 @@
     object-fit: cover;
     position: relative;
     z-index: 2;
-    animation: float 6s ease-in-out infinite;
 }
 
 .image-border {
@@ -42,7 +41,6 @@
     bottom: -10px;
     border: 3px solid var(--accent-color);
     border-radius: 50%;
-    animation: pulse 4s ease-in-out infinite;
 }
 
 .header-text {

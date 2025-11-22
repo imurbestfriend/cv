@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../img/Mve.jpg';
 import './Header.css';
 
 const Header = () => {
@@ -6,12 +7,11 @@ const Header = () => {
         <header className="header">
             <div className="header-content">
                 <div className="profile-image">
-                    <img src="" alt="Profile" />
+                    <img src={profileImg} alt="Profile" />
                     <div className="image-border"></div>
                 </div>
                 <div className="header-text">
                     <h1>Меликов Владислав</h1>
-                    {/*<h2>Студент Frontend-разработки</h2>*/}
                     <p>Специализация: Front-end, ML</p>
                     <div className="social-links">
                         <a href="#"><i className="fab fa-github"></i></a>

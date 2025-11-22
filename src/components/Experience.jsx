@@ -4,35 +4,13 @@ import './Experience.css';
 const Experience = () => {
     const experiences = [
         {
-            position: 'Senior Frontend Developer',
-            company: 'Tech Solutions Inc.',
-            period: '2020 - настоящее время',
+            position: 'Junior Data Scientist',
+            company: 'Sber',
+            period: 'Июль 2025 — Настоящее время',
             responsibilities: [
-                'Разработка и поддержка веб-приложений на React',
-                'Оптимизация производительности приложений',
-                'Ревью кода младших разработчиков',
-                'Участие в архитектурных решениях'
-            ]
-        },
-        {
-            position: 'Frontend Developer',
-            company: 'WebArt Studio',
-            period: '2018 - 2020',
-            responsibilities: [
-                'Создание адаптивных интерфейсов',
-                'Интеграция с REST API',
-                'Внедрение TypeScript в проект',
-                'Работа в Agile-команде'
-            ]
-        },
-        {
-            position: 'Junior Frontend Developer',
-            company: 'StartUp Lab',
-            period: '2017 - 2018',
-            responsibilities: [
-                'Верстка по макетам',
-                'Рефакторинг legacy кода',
-                'Написание unit-тестов'
+                'Поддержка и развитие финансовых ИИ-агентов на основе LangGraph',
+                'Задачи по исследованию и обработке клиентских данных',
+                'Написание автотестов и контроль качества перед релизами'
             ]
         }
     ];

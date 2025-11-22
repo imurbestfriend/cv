@@ -3,9 +3,9 @@ import React from 'react';
 const Education = () => {
     const education = [
         {
-            degree: 'Програмная инженерия',
+            degree: 'РТУ МИРЭА',
             name: 'Advanced React and Redux',
-            university: 'РТУ МИРЭА',
+            university: 'Програмная инженерия',
             year: '2022 - 2026'
         }
     ];

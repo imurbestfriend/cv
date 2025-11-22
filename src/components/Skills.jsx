@@ -3,8 +3,8 @@ import './Skills.css';
 
 const Skills = () => {
     const frontendSkills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'TypeScript', 'MUI', 'SASS', 'Tailwind'];
-    const tools = ['Git', 'Webpack', 'Vite', 'PostgreSQL', 'MongoDB', 'Node.js', 'Express js'];
-    const MLSkills = ['Python', 'CV', 'Scikit-Learn', 'PyTorch', 'Jupyter'];
+    const tools = ['Git', 'Docker', 'Webpack', 'Vite', 'PostgreSQL', 'MongoDB', 'Node.js', 'Express js'];
+    const MLSkills = ['Python', 'Computer Vision', 'NLP', 'AI-agent', 'LangGraph, LangChain', 'Scikit-Learn', 'PyTorch', 'Jupyter'];
 
     return (
         <section className="skills">
@@ -22,19 +22,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skill-category">
-                        <h3>Инструменты</h3>
-                        <div className="skills-list">
-                            {tools.map((tool, index) => (
-                                <div key={`tools-${index}`} className="skill-bubble">
-                                    {tool}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="skills-column">
+                     <div className="skills-column">
                     <div className="skill-category">
                         <h3>ML / DL</h3>
                         <div className="skills-list">
@@ -47,6 +35,17 @@ const Skills = () => {
                     </div>
 
 
+                </div>
+                    <div className="skill-category">
+                        <h3>Инструменты</h3>
+                        <div className="skills-list">
+                            {tools.map((tool, index) => (
+                                <div key={`tools-${index}`} className="skill-bubble">
+                                    {tool}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
